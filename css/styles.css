@@ -117,3 +117,14 @@ body {
   margin-right: 4px;
   margin-bottom: 4px;
 }
+/* chapter pages */
+.chapter {
+  font-family: 'Noto Serif', serif;
+}
+.chapter .row {
+  border-bottom: 1px solid #6c757d;
+}
+.chapter .col {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
