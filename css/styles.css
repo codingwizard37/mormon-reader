@@ -44,6 +44,10 @@ body {
   width: 100%;
 }
 
+.page h2 {
+  margin: 16px;
+}
+
 .footer {
   border-top: 1px solid #6c757d;
   display: flex;
@@ -109,6 +113,9 @@ body {
 }
 
 /* about.html */
+.about h2 {
+  margin-left: 0;
+}
 .about p {
   font-family: 'Noto Serif', serif;
 }
@@ -170,4 +177,21 @@ body {
 
 .chapter .summary {
   font-style: italic;
+}
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) {
+  .page {
+    width: 75%;
+  }
+}
+/* Desktop Styles */
+@media only screen and (min-width: 992px) {
+  .page {
+    width: 50%;
+  }
+  .chapter {
+    width: 75%;
+  }
 }
