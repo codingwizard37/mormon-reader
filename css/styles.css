@@ -77,3 +77,25 @@ body {
   text-orientation: mixed;
   writing-mode: vertical-rl;
 }
+
+/* book pages */
+.form-inline {
+  display: flex;
+  justify-content: space-between;
+}
+.form-inline .form-control {
+  width: 75%;
+}
+.form-inline .btn {
+  width: 20%;
+}
+.chapters {
+  display: flex;
+  flex-flow: wrap;
+  /* justify-content: space-around; */
+}
+.chapters .btn {
+  width: 50px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
