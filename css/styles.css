@@ -11,8 +11,11 @@
 .material-icons.md-48 { font-size: 48px; }
 
 /* all pages */
+html,
 body {
   height: 100%;
+}
+body {
   padding-bottom: 60px;
 }
 .navbar {
@@ -127,4 +130,7 @@ body {
 .chapter .col {
   padding-top: 8px;
   padding-bottom: 8px;
+}
+.chapter .summary {
+  font-style: italic;
 }
