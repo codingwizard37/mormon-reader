@@ -13,7 +13,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
   <title>Reader | Home</title>
 </head>
 
@@ -26,7 +26,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home
+          <a class="nav-link" href="/index.html">Home
             <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
@@ -34,8 +34,8 @@
             Reader
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">1 Nephi</a>
-            <a class="dropdown-item" href="#">2 Nephi</a>
+            <a class="dropdown-item" href="/pages/books/1nephi/ch-list.html">1 Nephi</a>
+            <a class="dropdown-item disabled" href="#">2 Nephi</a>
             <a class="dropdown-item disabled" href="#">Jacob</a>
             <a class="dropdown-item disabled" href="#">Enos</a>
             <a class="dropdown-item disabled" href="#">Jarom</a>
@@ -52,10 +52,10 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Languages</a>
+          <a class="nav-link" href="/pages/languages.html">Languages</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="/pages/about.html">About</a>
         </li>
       </ul>
     </div>
@@ -68,7 +68,9 @@
       <h3 class="m-auto text-white">Parallel Reader</h3>
     </div>
 
-    <h5 class="my-3">Language selection:</h5>
+    <a href="/pages/languages.html">
+      <h5 class="my-3">Language selection:</h5>
+    </a>
     <div class="current-lang my-3">
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -93,11 +95,11 @@
       </div>
     </div>
 
-    <div class="row mt-3 no-gutters">
+    <div class="row my-3 no-gutters">
       <div class="col">
         <a href="pages/1nephi/ch-list.html">
           <div class="card text-center rounded-0">
-            <img class="card-img-top rounded-0" src="images/book-covers/1nephi.jpeg" alt="lehi and family in the wilderness">
+            <img class="card-img-top rounded-0" src="/images/book-covers/1nephi.jpeg" alt="lehi and family in the wilderness">
             <div class="card-body">
               <h5 class="card-title">1 Nephi</h5>
               <p class="card-text">Now available</p>
@@ -107,26 +109,22 @@
       </div>
       <div class="col">
         <!-- <a href="#" class="disabled"> -->
-          <div class="card text-center text-muted rounded-0">
-            <img class="card-img-top rounded-0" src="images/book-covers/2nephi.jpeg" alt="lehi blessing his children">
-            <div class="card-body">
-              <h5 class="card-title">2 Nephi</h5>
-              <p class="card-text">Coming soon!</p>
-            </div>
+        <div class="card text-center text-muted rounded-0">
+          <img class="card-img-top rounded-0" src="/images/book-covers/2nephi.jpeg" alt="lehi blessing his children">
+          <div class="card-body">
+            <h5 class="card-title">2 Nephi</h5>
+            <p class="card-text">Coming soon!</p>
           </div>
+        </div>
         <!-- </a> -->
       </div>
-    </div>
-
-    <div class="card-group ">
-
     </div>
   </div>
 
   <!-- Footer  -->
-  <nav class="navbar footer navbar-light">
+  <nav class="navbar footer navbar-light bg-light">
     <img class="navbar-brand" src="/images/logos/github.png" alt="github logo">
-    <a class="navbar-text" href="https://github.com/BYU-CS-260-Winter-2020/lab-1-photography-website-codingwizard37">GitHub Repository</a>
+    <a class="navbar-text" href="https://github.com/codingwizard37/mormon-reader">GitHub Repository</a>
   </nav>
 
   <!-- Optional JavaScript -->

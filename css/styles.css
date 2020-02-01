@@ -1,6 +1,5 @@
 /* bom color #001738 */
 /* gold color #FEC68B */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,6 +10,7 @@
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
 
+/* all pages */
 body {
   min-height: 100vh;
   padding-bottom: 60px;
@@ -22,16 +22,19 @@ body {
 .page {
   font-family: 'Open Sans', sans-serif;
 }
-.page h5 {
-  text-align: center;
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
 }
-.header {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: #FEC68B;
-  text-align: center;
-  background-color: #001738;
+.footer img {
+  filter: invert(1);
+  opacity: .75;
 }
+
+/* homepage */
 .current-lang {
   display: flex;
   /* border: 1px solid red; */
@@ -45,11 +48,32 @@ body {
 .card {
   height: 100%;
 }
-.footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
+.header {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #FEC68B;
+  text-align: center;
+  background-color: #001738;
+}
+.page h5 {
+  text-align: center;
+}
+
+/* languages.html */
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+.list-group-item.switch {
   display: flex;
   justify-content: center;
-  background-color: #DCDCDC;
+}
+.list-group-item h5 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.list-group-item i {
+  display: flex;
+  text-orientation: mixed;
+  writing-mode: vertical-rl;
 }
