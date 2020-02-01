@@ -5,33 +5,52 @@
   margin: 0;
   padding: 0;
 }
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
 
 /* all pages */
-html,
-body {
+html {
   height: 100%;
 }
+
 body {
-  padding-bottom: 60px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
 .navbar {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
+
 .page {
   font-family: 'Open Sans', sans-serif;
-}
-.footer {
-  position: absolute;
+  flex: 1 0 auto;
   width: 100%;
-  bottom: 0;
+}
+
+.footer {
+  border-top: 1px solid #6c757d;
   display: flex;
   justify-content: center;
+  flex-shrink: 0;
 }
+
 .github,
 .twitter {
   filter: invert(1);
@@ -45,13 +64,16 @@ body {
   justify-content: space-evenly;
   align-content: center;
 }
+
 .current-lang i {
   padding-top: 7px;
   padding-bottom: 7px;
 }
+
 .card {
   height: 100%;
 }
+
 .header {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -59,6 +81,7 @@ body {
   text-align: center;
   background-color: #001738;
 }
+
 .page h5 {
   text-align: center;
 }
@@ -68,14 +91,17 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .list-group-item.switch {
   display: flex;
   justify-content: center;
 }
+
 .list-group-item h5 {
   margin-top: auto;
   margin-bottom: auto;
 }
+
 .list-group-item i {
   display: flex;
   text-orientation: mixed;
@@ -86,51 +112,62 @@ body {
 .about p {
   font-family: 'Noto Serif', serif;
 }
+
 .about ul img {
   height: 24px;
   margin-right: 8px;
   vertical-align: middle;
 }
+
 .about ul i {
   margin-right: 8px;
   vertical-align: middle;
 }
+
 .contact-list {
   font-size: 1.1rem;
 }
-.github
+
 /* book pages */
 .form-inline {
   display: flex;
   justify-content: space-between;
 }
+
 .form-inline .form-control {
   width: 75%;
 }
+
 .form-inline .btn {
   width: 20%;
 }
+
 .chapters {
   display: flex;
   flex-flow: wrap;
   /* justify-content: space-around; */
 }
+
 .chapters .btn {
   width: 50px;
   margin-right: 4px;
   margin-bottom: 4px;
 }
+
 /* chapter pages */
 .chapter {
   font-family: 'Noto Serif', serif;
 }
+
 .chapter .row {
   border-bottom: 1px solid #6c757d;
 }
+
 .chapter .col {
   padding-top: 8px;
   padding-bottom: 8px;
 }
+
 .chapter .summary {
   font-style: italic;
 }
