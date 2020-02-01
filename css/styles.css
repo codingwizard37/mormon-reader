@@ -12,7 +12,7 @@
 
 /* all pages */
 body {
-  min-height: 100vh;
+  height: 100%;
   padding-bottom: 60px;
 }
 .navbar {
@@ -29,7 +29,8 @@ body {
   display: flex;
   justify-content: center;
 }
-.footer img {
+.github,
+.twitter {
   filter: invert(1);
   opacity: .75;
 }
@@ -78,6 +79,23 @@ body {
   writing-mode: vertical-rl;
 }
 
+/* about.html */
+.about p {
+  font-family: 'Noto Serif', serif;
+}
+.about ul img {
+  height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.about ul i {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.contact-list {
+  font-size: 1.1rem;
+}
+.github
 /* book pages */
 .form-inline {
   display: flex;
