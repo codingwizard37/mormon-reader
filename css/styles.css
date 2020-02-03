@@ -22,17 +22,6 @@
   font-size: 48px;
 }
 
-/* all pages */
-html {
-  height: 100%;
-}
-
-body {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 .navbar {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -40,8 +29,6 @@ body {
 
 .page {
   font-family: 'Open Sans', sans-serif;
-  flex: 1 0 auto;
-  width: 100%;
 }
 
 .page h2 {
@@ -50,9 +37,7 @@ body {
 
 .footer {
   border-top: 1px solid #6c757d;
-  display: flex;
   justify-content: center;
-  flex-shrink: 0;
 }
 
 .github,
@@ -99,6 +84,9 @@ body {
 .list-group-item.switch {
   display: flex;
   justify-content: center;
+}
+.list-group-item .btn-warning {
+  width: 50px;
 }
 
 .list-group-item h5 {
